@@ -117,8 +117,8 @@ export class StartWorkStates {
                 return Transition.back();
             }
 
-            if (value === 'NAAAAAH') {
-                return Transition.forward(this.finalState, { transitionName: undefined });
+            if (value === 'No Transition') {
+                return Transition.forward(this.rovoStep, { transitionName: undefined });
             }
 
             return Transition.forward(this.doStuff, { transitionName: value });

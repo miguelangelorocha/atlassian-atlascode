@@ -110,7 +110,7 @@ export class StartWorkFlowUI extends BaseUI {
 
         const { value, action } = await this.showQuickPick<string>(
             [
-                { label: 'NAAAAAH', description: 'Do not transition the issue' },
+                { label: 'No transition', description: 'Do not transition the issue' },
                 { kind: QuickPickItemKind.Separator, label: '' },
                 ...items,
             ],

@@ -103,6 +103,11 @@
                 "when": "atlascode:useNewAuthFlow && !atlascode:bbyEnvironmentActive"
             },
             {
+                "command": "atlascode.jira.startWork",
+                "title": "Start Work",
+                "category": "Jira"
+            },
+            {
                 "command": "atlascode.rovodev.askInteractive",
                 "title": "Ask & Open",
                 "enablement": "atlascode:rovoDevEnabled && !atlascode:bbyEnvironmentActive",
